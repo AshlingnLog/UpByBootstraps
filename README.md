@@ -78,3 +78,4 @@ Index.html
 mapanimation.js
 styles.css
 You may also review the rubric below for more information on how your work will be assessed.
+
