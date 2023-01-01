@@ -1,81 +1,83 @@
-# UpByBootstraps
-Ashling's MIT Bootstraps Project
-Using bootstrap I will build a portfolio which includes some recent projects 
+# Thank you for purchasing Now UI Kit PRO <3
 
-Assignment requirements: https://classroom.emeritus.org/courses/1172/assignments/45929?module_item_id=283450
+## Docs and Examples
 
-GitHub Pages Portfolio Assignment Submission:
-Home page
-CSS file for GitHub pages
-The file where you imported Bootstrap, for extra credit
-PacMen Exercise Repository
-Eye Exercise Repository
-Real Time Bus Tracking Repository
+Please check the official documentation in `documentation/tutorial-components.html` or directly to this link: https://creativetimofficial.github.io/now-ui-kit-pro/#/components
 
-Website Requirements
-Your website should include the following:
+## Getting Started
 
-Video Introduction, which should be: 
-An introduction to yourself, including an overview of your work and skills
-Uploaded on to YouTube
-Embedded on the homepage of your site
-2 minutes or less
-        2. Bio, which should include:
+We've also included an optional Gulp file to help you get started with theme customization. You'll need to install Node.js and Gulp before using our included gulpfile.js.
 
-Minimum of 50 words
-Photo
-GitHub username
-LinkedIn link
-Best way to contact you
-       3. Pages and Navigation, so your website includes:
+1. Download the project's zip
+2. Make sure you have node.js (https://nodejs.org/en/) installed
+3. Type `npm install` in terminal/console in the source folder where `package.json` is located
+4. You will find all the branding colors inside `assets/scss/_variables.scss`. You can change them with a `HEX` value.
+5. Run in terminal `gulp compile:scss` for a single compilation or `gulp watch` for continous compilation of the changes that you make in `*.scss` files. This command should be run in the same folder where `gulpfile.js` and `package.json` are located
+6. Run in terminal `gulp` for opening the Presentation Page (default) of the product.
 
-Landing page, which contains your video introduction and bio
-Projects page, which includes information on your coding projects
-Navigation bar, so users can navigate between the two pages
-        4. Styles, you should style your website including:
+## Support
 
-Font
-Color 
-Navigation
-Image
-Styled links 
-Use of grid layout, which will be assessed by looking at the link to your CSS file
-     5.Projects Page, should include the following for two or more projects. These links should go directly to the repositories you will submit for grading in the GitHub Repository Assignment Submission. 
+If you experience any problems with the above, or if you think you've found a bug with your theme - please don't hesitate to reach out to https://www.creative-tim.com/support thanks!!
 
-Project titles for the PacMen Exercise, Eye Exercise, and Real Time Bus Tracking projects
-Links to GitHub repositories 
-Project descriptions (1 - 5 sentences per project)
-     6. Extra Credit: Bootstrap: If you use Bootstrap for styling, you will receive extra credit. Upload a direct link to the file where you imported Bootstrap for this project to receive credit. 
+### What's included
 
- 
+Within the download you'll find the following directories and files:
 
-GitHub Repository Requirements
-You will also be assessed on the GitHub repositories for three coding projects: PacMen Exercise, Eye Exercise, and Real Time Bus Tracker. 
-
-The README for each repository should contain: 
-
-Project Title
-Description of Project (minimum of 20 words)
-How to Run: This is information someone would use to get started running your project on their machine. 
-
-Roadmap of future improvements: This should be a few sentences describing what you plan to work on next in this repository. 
-License information: This should include information about the MIT license. 
-The file structure for each repository should align to the following: 
-
-PacMen Exercise
-images/pacman1
-images/pacman2
-images/pacman3
-images/pacman4
-Index.html
-pacmen.js
- Eye Exercise
-index.html
-eyes.js
-styles.css
-Real Time Bus Tracker
-Index.html
-mapanimation.js
-styles.css
-You may also review the rubric below for more information on how your work will be assessed.
-
+```
+now-ui-kit-pro/
+  ├── CHANGELOG.md
+  ├── README.md
+  ├── assets/
+  │   ├── css/
+  │   │   ├── bootstrap.min.css
+  │   │   ├── demo.css
+  │   │   └── now-ui-kit.css
+  │   ├── fonts/
+  │   │   ├── nucleo-license.md
+  │   │   ├── nucleo-outline.eot
+  │   │   ├── nucleo-outline.ttf
+  │   │   ├── nucleo-outline.woff
+  │   │   └── nucleo-outline.woff2
+  │   ├── img/
+  │   ├── js/
+  │   │   ├── core/
+  │   │   │   ├── bootstrap.min.js
+  │   │   │   ├── jquery.3.2.1.min.js
+  │   │   │   └── popper.min.js
+  │   │   ├── now-ui-kit.js
+  │   │   └── plugins/
+  │   │       ├── bootstrap-datetimepicker.min.js
+  │   │       ├── bootstrap-selectpicker.js
+  │   │       ├── bootstrap-switch.js
+  │   │       ├── bootstrap-tagsinput.js
+  │   │       ├── jasny-bootstrap.min.js
+  │   │       ├── moment.min.js
+  │   │       ├── nouislider.min.js
+  │   │       └── presentation-page
+  │   │           └── rellax.min.js
+  │   └── scss
+  │       ├── demo.scss
+  │       ├── now-ui-kit/
+  │       └── now-ui-kit.scss
+  ├── documentation/
+  │   ├── template.html
+  │   └── tutorial-components.html
+  ├── examples/
+  │   ├── about-us.html
+  │   ├── blog-post.html
+  │   ├── blog-posts.html
+  │   ├── contact-us.html
+  │   ├── ecommerce.html
+  │   ├── landing-page.html
+  │   ├── login-page.html
+  │   ├── pricing.html
+  │   ├── product-page.html
+  │   ├── profile-page.html
+  │   └── signup-page.html
+  ├── gulpfile.js
+  ├── index.html
+  ├── nucleo-icons.html
+  ├── package.json
+  ├── presentation.html
+  └── sections.html
+```
