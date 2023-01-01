@@ -9,7 +9,7 @@
 
 ## Getting Started
 
-You should be able to access the site via the url (https://ashlingnlog.github.io/UpByBootstraps/)or by running the index.html page.
+You should be able to access the site via the url (https://ashlingnlog.github.io/UpByBootstraps/) or by running the index.html page.
 
 
 ## Support
