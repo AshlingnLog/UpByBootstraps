@@ -23,14 +23,16 @@ notes link for tips https://github.com/readmeTips/readmeTips.github.io/blob/mast
 
 Project should follow requirements established here: https://classroom.emeritus.org/courses/1172/assignments/45929?module_item_id=283450
 Assignment Submission Requirements
-Please download this template  Download template, which you will upload for submission. On the template you should include links to: 
+ 
+ Download template and submit links 
+ On the template you should include links to: 
 
-Home page
-CSS file for GitHub pages
-The file where you imported Bootstrap, for extra credit
-PacMen Exercise Repository
-Eye Exercise Repository
-Real Time Bus Tracking Repository
+* Home page
+* CSS file for GitHub pages
+* The file where you imported Bootstrap, for extra credit
+* PacMen Exercise Repository
+* Eye Exercise Repository
+* Real Time Bus Tracking Repository
  
 
 Website Requirements
