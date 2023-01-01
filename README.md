@@ -1,11 +1,11 @@
 # My Portfolio site using bootstrap 4
 
 ## Docs listed:
-*gitignore
-*readme
-*bootstrap integration via HTML
-*JS
-*CSS
+* gitignore
+* readme
+* bootstrap integration via HTML
+* JS
+* CSS
 
 ## Getting Started
 
