@@ -3,7 +3,7 @@
 ## Docs listed:
 -gitignore
 -readme
--bootstrap integration HTML
+-bootstrap integration via HTML
 -JS
 -CSS
 
