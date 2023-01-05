@@ -14,30 +14,37 @@
       margin-bottom: 0;
       border-radius: 0;
     }
-    
 
     footer {
       background-color:#eccfcf;
       padding: 25px;
     }
+    .modal {
+ overflow-y: auto;
+}
+
+.modal-open {
+ overflow: auto;
+}
   </style>
 </head>
 <body>
+
 <!-- top Nav -->
 <nav class="navbar navbar-inverse"style="background-color: #eccfcf;">
   <div class="container-fluid">
-    <div class="navbar-header" href="C:\Users\ashli\OneDrive\MIT class notes\Bootstrap\UpByBootstraps-main\UpByBootstraps-main\AshlingButterfly.png">
+    <div class="navbar-header" href="AshlingButterfly.png">
         <img src="AshlingButterfly.png" alt="logo" style="width: 60px;px;">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="#">Ashling</a>
+      <a class="navbar-brand" href="https://ashlingnlog.github.io/UpByBootstraps/">Ashling</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
-        <li><a href="www.Astruve.com">Home</a></li>
+        <li><a href="http://www.astruve.com">Home</a></li>
         <li><a href="#">About</a></li>
         <li><a href="#">Projects</a></li>
         <li><a href="mailto:AshlingStruve85@gmail.com"> Contact</a></li>
@@ -49,6 +56,7 @@
     </div>
   </div>
 </nav>
+
 <!-- Intro -->
 <div class="jumbotron">
   <div class="container text-center">
@@ -58,13 +66,13 @@
 </div>
 
 <!-- Portrait-->
-<div container-center="card" style="width:400px">
+<div container="card" style="width:400px">
   <img class="card-img-top" src="Self.PORTRAIT.jpg" alt="Ashling Card image" style="width:100%">
   <div class="card-body">
 </div>
 
 <!-- Projects-->
-<div class="container-fluid bg-3 text-center">    
+<div class-right="container-fluid bg-3 text-center">    
   <h3>Class Projects</h3><br>
   <div class="row">
     <div class="col-sm-3">
@@ -79,24 +87,47 @@
       <p>PacMen</p>
       <img src="PACMAN.gif" href="https://ashlingnlog.github.io/PacMen/" class="img-responsive" style="width:100%" alt="PacMen">
     </div>
-    <div class="col-sm-3">
-      <p>Some text..</p>
-      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-    </div>
+  
   </div>
 </div><br>
-
+<!-- Projects Soltutions for Left Alignment Trial-->
+<div class="container-fluid bg-3 text-center">
+  <h3>Class Projects</h3>
+  <div class="row">
+    <div class="col-sm-4">
+      <p>Eyes Excersize</p>
+      <img src="eyeballstickers.jpg" href= "https://ashlingnlog.github.io/eyes/" class="img-responsive" style="width:100%" alt="EyeBalls">
+    </div>
+    <div class="col-sm-4">
+      <p>Lorem ipsum..</p>
+      <img src="birds2.jpg" alt="Image">
+    </div>
+    <div class="col-sm-4">
+      <p>Lorem ipsum..</p>
+      <img src="birds3.jpg" alt="Image">
+    </div>
+  </div>
+</div>
+<br>
+<!-- Calendly inline widget begin -->
+<div class="calendly-inline-widget" data-url="https://calendly.com/astruve/30min?primary_color=66d8c6" style="min-width:320px;height:630px;"></div>
+<script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+<!-- Calendly inline widget end -->
+<br>
   <!-- embbeded youtube video -->
-  <p><iframe width="560" height="315" src="https://www.youtube.com/embed/2IhVKhOhfcc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
-<hr>
+  <div class- right>
+    <p><iframe width="560" height="315" src="https://www.youtube.com/embed/2IhVKhOhfcc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+  </div>
+    <hr>
 </div>
 <div class="container-fluid"> </div>
     </div>
-</div><br><br>
+</div><br>
+</div>
 <!-- footer with contact -->
 <footer class="container-fluid text-center">
   <p> Made by Ashling Struve for MIT xPro Women's Cohort
-  <p> <a href="mailto:AshlingStruve85@gmail.com"> Contact Me<a/> </p>
+  <p> <a href="mailto:AshlingStruve85@gmail.com"> Contact Me </p>
 </footer>
 
 </body>
