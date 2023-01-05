@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- bootstrap 3 -->
-  <title>Bootstrap Project</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+ <title>Ashling's xPro Portfolio Project</title>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
@@ -15,90 +14,96 @@
       border-radius: 0;
     }
     
-
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 450px}
+  
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 20px;
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+    
+    /* Set black background color, white text and some padding */
     footer {
-      background-color:#eccfcf;
-      padding: 25px;
+      background-color: #555;
+      color: white;
+      padding: 15px;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;} 
     }
   </style>
 </head>
 <body>
-<!-- top Nav -->
-<nav class="navbar navbar-inverse"style="background-color: #eccfcf;">
+
+<nav class="navbar navbar-inverse">
   <div class="container-fluid">
-    <div class="navbar-header" href="C:\Users\ashli\OneDrive\MIT class notes\Bootstrap\UpByBootstraps-main\UpByBootstraps-main\AshlingButterfly.png">
-        <img src="AshlingButterfly.png" alt="logo" style="width: 60px;px;">
+    <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="#">Ashling</a>
+      <a class="navbar-brand" href="#"></a> <body href="AshlingButterfly.svg.png">Logo</a>
+    </div>
+      }
+
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
-        <li><a href="www.Astruve.com">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Projects</a></li>
-        <li><a href="mailto:AshlingStruve85@gmail.com"> Contact</a></li>
-        <li><a href="https://photos.google.com/share/AF1QipPk1uE-cXCOZPSEqkPy9_XgFanUwml2dZMxgaB0RMds0xvBf4NK1FoeviIrLUPaWg?key=XzBpRnFkNVljUnUySHp6bVZVUkVrbG5GUnhZc0d3">Gallery</a></li>
-        <li><a href="https://www.astruve.com/home">My Skills</a></li>
+        <li class="active"><a href="https://www.astruve.com/home/full-stack-developer">Home</a></li>
+        <li><a href="http://www.astruve.com">About</a></li>
+        <li><a href="https://github.com/AshlingnLog">Projects</a></li>
+        <li><a href="mailto:AshlingStruve85@gmail.com">Contact Me</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
       </ul>
     </div>
   </div>
 </nav>
-<!-- Intro -->
-<div class="jumbotron">
-  <div class="container text-center">
-    <h1>My Class Portfolio Bootstrap Project</h1>      
-    <p>Allow me to introduce myself, I am a self-proclaimed world traveler, pun-lover, solo mom, certified makeup artist, technophile, shutterbug, craft dabbler, and fitness fanatic; always seeking improvement. After, over 7 years, of experience in project management, administrative assistance, and operations I am challenging myself in new ways by becoming certified as a full-stack MERN developer with MIT xPro's women's cohort.  I have many hats.</p>
-  </div>
-</div>
-
-<!-- Portrait-->
-<div container-center="card" style="width:400px">
-  <img class="card-img-top" src="Self.PORTRAIT.jpg" alt="Ashling Card image" style="width:100%">
-  <div class="card-body">
-</div>
-
-<!-- Projects-->
-<div class="container-fluid bg-3 text-center">    
-  <h3>Class Projects</h3><br>
-  <div class="row">
-    <div class="col-sm-3">
-      <p>Eyes Excersize</p>
-      <img src="eyeballstickers.jpg" href= "https://ashlingnlog.github.io/eyes/" class="img-responsive" style="width:100%" alt="EyeBalls">
+  
+<div class="container-fluid text-center">    
+  <div class="row content">
+    <div class="col-sm-2 sidenav">
+      <p><a href="http://www.astruve.com">My Website</a></p>
+      <p><a href="https://github.com/AshlingnLog">My Repository</a></p>
+      <div class="container-fluid text-center"><a href="http://www.google.com/url?q=http%3A%2F%2Fwww.linkedin.com%2Fin%2Fashlings&amp;sa=D&amp;sntz=1&amp;usg=AOvVaw3RhU5n8RR57btwaYHpBsU0" target="_blank" class="RNpQXe AIKCSc" style="width: 32px; height: 32px; margin: 6px; background-color: #2867b2; background-image: linear-gradient(#2867b2, #2867b2);"><img src="https://ssl.gstatic.com/atari/images/sociallinks/linkedin_white_28dp.png" alt="LinkedIn" class="lEB4Hf" style="width: 28px; height: 28px;" width="28" height="28"></a><a href="https://www.google.com/url?q=https%3A%2F%2Fwww.facebook.com%2FAshling85&amp;sa=D&amp;sntz=1&amp;usg=AOvVaw0bpKXmVA9PdwqhvftzZ70Y" target="_blank" class="RNpQXe AIKCSc" style="width: 32px; height: 32px; margin: 6px; background-color: #1877f2; background-image: linear-gradient(#1877f2, #1877f2);"><img src="https://ssl.gstatic.com/atari/images/sociallinks/facebook_white_28dp.png" alt="Facebook" class="lEB4Hf" style="width: 28px; height: 28px;" width="28" height="28"></a><a href="https://www.google.com/url?q=https%3A%2F%2Fgithub.com%2FAshlingnLog&amp;sa=D&amp;sntz=1&amp;usg=AOvVaw06cjEg2K-xiYc8ooYq1EdA" target="_blank" class="RNpQXe AIKCSc" style="width: 32px; height: 32px; margin: 6px; background-color: #171516; background-image: linear-gradient(#171516, #171516);"><img src="https://ssl.gstatic.com/atari/images/sociallinks/github_white_28dp.png" alt="GitHub" class="lEB4Hf" style="width: 28px; height: 28px;" width="28" height="28"></a><a href="http://www.google.com/url?q=http%3A%2F%2Fwww.instagram.com%2Fgiggletron4k%2F&amp;sa=D&amp;sntz=1&amp;usg=AOvVaw2D6ocuPXNb9YxWj1hDu8sq" target="_blank" class="RNpQXe AIKCSc" style="width: 32px; height: 32px; margin: 6px; background-color: #fe005c; background-image: linear-gradient(#fe005c, #fe005c);"><img src="https://ssl.gstatic.com/atari/images/sociallinks/instagram_white_28dp.png" alt="Instagram" class="lEB4Hf" style="width: 28px; height: 28px;" width="auto" height="auto"></a></div>
     </div>
-    <div class="col-sm-3"> 
-      <p>Real Time Bus</p>
-      <img src="demo.png" href="https://ashlingnlog.github.io/MapAnimation/" class="img-responsive" style="width:100%" alt="BusMap">
-    </div>
-    <div class="col-sm-3"> 
-      <p>PacMen</p>
-      <img src="PACMAN.gif" href="https://ashlingnlog.github.io/PacMen/" class="img-responsive" style="width:100%" alt="PacMen">
-    </div>
-    <div class="col-sm-3">
-      <p>Some text..</p>
-      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-    </div>
-  </div>
-</div><br>
-
-  <!-- embbeded youtube video -->
-  <p><iframe width="560" height="315" src="https://www.youtube.com/embed/2IhVKhOhfcc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+    <div class="col-sm-8 text-left"> 
+      <img src = "Self.PORTRAIT.jpg" alt="AshlingPortrait">
+      <h1>Ashling's Portfolio</h1>
+      <br>
+Well Hello there! I'm Ashling aka AshlingnLog
+</p>
+Allow me to introduce myself, I am a self-proclaimed world traveler, pun-lover, solo mom, certified makeup artist, technophile, shutterbug, craft dabbler, and fitness fanatic; always seeking improvement. After, over 7 years, of experience in project management, administrative assistance, and operations I am challenging myself in new ways by becoming certified as a full-stack MERN developer with MIT xPro's women's cohort.  I have many hats!</p>
+      
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/2IhVKhOhfcc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 <hr>
-</div>
-<div class="container-fluid"> </div>
+      <h3>Some Projects for Class</h3>
+      <p><a href="https://ashlingnlog.github.io/eyes/">Eyes Exercise</a></p>
+      <p><a href="https://ashlingnlog.github.io/MapAnimation/">Real Time Bus</a></p>
+      <p><a href="https://ashlingnlog.github.io/PacMen/">PacMen</a></p>
     </div>
-</div><br><br>
-<!-- footer with contact -->
+    <div class="col-sm-2 sidenav">
+      <div class="well">
+        <p><h2><a href="https://www.astruve.com/home/r%C3%A9sum%C3%A9">Résumé</p></h2>
+      </div>
+      <div class="well">
+      </div>
+    </div>
+  </div>
+</div>
+
 <footer class="container-fluid text-center">
-  <p> Made by Ashling Struve for MIT xPro Women's Cohort
-  <p> <a href="mailto:AshlingStruve85@gmail.com"> Contact Me<a/> </p>
+ <p>Made by Ashling Struve for MIT xPro Women's Cohort</p>
 </footer>
 
 </body>
 </html>
-
