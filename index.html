@@ -26,6 +26,10 @@
 .modal-open {
  overflow: auto;
 }
+.row {
+        margin: 0 auto;
+        width: 50%;
+    }
   </style>
 </head>
 <body>
@@ -40,12 +44,12 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="https://ashlingnlog.github.io/UpByBootstraps/">Ashling</a>
+      <a class="navbar-brand" href="www.Ashling.us">Ashling</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
         <li><a href="http://www.astruve.com">Home</a></li>
-        <li><a href="#">About</a></li>
+        <li><a href="https://ashlingnlog.github.io/UpByBootstraps/About">About</a></li>
         <li><a href="#">Projects</a></li>
         <li><a href="mailto:AshlingStruve85@gmail.com"> Contact</a></li>
         <li><a href="https://photos.google.com/share/AF1QipPk1uE-cXCOZPSEqkPy9_XgFanUwml2dZMxgaB0RMds0xvBf4NK1FoeviIrLUPaWg?key=XzBpRnFkNVljUnUySHp6bVZVUkVrbG5GUnhZc0d3">Gallery</a></li>
@@ -64,28 +68,46 @@
     <p>Allow me to introduce myself, I am a self-proclaimed world traveler, pun-lover, solo mom, certified makeup artist, technophile, shutterbug, craft dabbler, and fitness fanatic; always seeking improvement. After, over 7 years, of experience in project management, administrative assistance, and operations I am challenging myself in new ways by becoming certified as a full-stack MERN developer with MIT xPro's women's cohort.  I have many hats.</p>
   </div>
 </div>
-
-<!-- Portrait-->
-<div container="card" style="width:400px">
-  <img class="card-img-top" src="Self.PORTRAIT.jpg" alt="Ashling Card image" style="width:100%">
-  <div class="card-body">
+<!-- Containers for Portrait & video to keep centered-->
+<div class="container text-center">
+  <div class="row">
+    <div class="col">
+   <!-- Portrait-->
+<figure class="figure">
+  <img src="Self.PORTRAIT.jpg" class="figure-img img-fluid rounded" style="width: 20%" alt="AshlingImage">
+  <figcaption class="figure-caption text-end">It's me. Hi!</figcaption>
+  <br>
+</figure>
+    </div>
+    <div class="col">
+   <!-- embbeded youtube video -->
+   <div class- center>
+    <p><iframe width="560" height="315" src="https://www.youtube.com/embed/2IhVKhOhfcc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+  </div>
+    <hr>
 </div>
+<br>
+</div>
+    </div>
+  </div>
+</div> 
 
-<!-- Projects-->
-<div class="container-fluid bg-3 text-center">
+<!-- Projects -->
+<div class="d-flex flex-row mb-3 text-center">
   <h3>Class Projects</h3>
- <div class="row">
-    <div class="col-sm-3">
-      <p>Eyes Excersize</p>
-      <img src="eyeballstickers.jpg" href= "https://ashlingnlog.github.io/eyes/" class="img-responsive" style="width:100%" alt="EyeBalls">
-    </div>
-    <div class="col-sm-3"> 
-      <p>Real Time Bus</p>
-      <img src="demo.png" href="https://ashlingnlog.github.io/MapAnimation/" class="img-responsive" style="width:100%" alt="BusMap">
-    </div>
-    <div class="col-sm-3"> 
-      <p>PacMen</p>
-      <img src="PACMAN.gif" href="https://ashlingnlog.github.io/PacMen/" class="img-responsive" style="width:100%" alt="PacMen">
+  <div class="row">
+        <div class="col-sm-4">
+          <div class="p-2">Eyes Excersise</div>
+          <img src="eyeballstickers.jpg" href= "https://ashlingnlog.github.io/eyes/" class="img-responsive" style="width:100%" alt="EyeBalls">
+        </div>
+        <div class="col-sm-4"> 
+          <div class="p-2">Real Time Bus</div>
+          <img src="demo.png" href="https://ashlingnlog.github.io/MapAnimation/" class="img-responsive" style="width:100%" alt="BusMap">
+        </div>
+        <div class="col-sm-4"> 
+          <div class="p-2">PacMen</div>
+          <img src="PACMAN.gif" href="https://ashlingnlog.github.io/PacMen/" class="img-responsive" style="width:100%" alt="PacMen">
+        </div>
     </div>
   </div>
 </div>
@@ -95,16 +117,7 @@
 <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
 <!-- Calendly inline widget end -->
 <br>
-  <!-- embbeded youtube video -->
-  <div class- right>
-    <p><iframe width="560" height="315" src="https://www.youtube.com/embed/2IhVKhOhfcc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
-  </div>
-    <hr>
-</div>
-<div class="container-fluid"> </div>
-    </div>
-</div><br>
-</div>
+
 <!-- footer with contact -->
 <footer class="container-fluid text-center">
   <p> Made by Ashling Struve for MIT xPro Women's Cohort
