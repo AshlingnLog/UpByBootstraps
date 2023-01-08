@@ -6,6 +6,7 @@
 * bootstrap integration via HTML
 * JS
 * CSS
+* image files for styling
 
 ## Getting Started
 
